@@ -1,0 +1,43 @@
+name: cars_website
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  cupertino_icons: ^1.0.8
+  go_router: ^17.0.0
+  http: ^1.6.0
+  url_launcher: ^6.3.2
+  fluttertoast: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/home.png
+    - assets/2_dune.jpg
+    - assets/4_dune.jpg
+    - assets/des.jpg
+    - assets/1_dune.webp
+    - assets/morning.jpg
+    - assets/morning_quad.jpg
+    - assets/overnight.jpg
+    - assets/private_morning.webp
+    - assets/private_saf.jpg
+    - assets/quad.jpg
+    - assets/safar_quad.jpg
+    - assets/vip_des.webp

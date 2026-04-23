@@ -1,0 +1,43 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "cars_website",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "cars_website (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "cars_website (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Flutter Web (Mobile Test)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--web-hostname=0.0.0.0",
+                "--web-port=5000"
+            ]
+        },
+        {
+            "name": "Flutter Web Debug",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--web-hostname=0.0.0.0",
+                "--web-port=5000",
+                "--web-browser-debugging-port=9222"
+            ]
+        }
+    ]
+}
